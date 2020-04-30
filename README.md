@@ -12,4 +12,4 @@ Comes pre-configured with a core and data layer, web api, unit test and integrat
 - MyApp.Contracts - Houses contracts for use between different applications that rely on MyApp views. Should be built as a nuget package.
 - Test
   - MyApp.Core.Test - Sample unit test project for the Core project. Any additional projects added should have their own .Test projects defined.
-  - MyApp.Web.Api.Test - Integration test project for the Web API. Includes sample POST and PUT unit tests using an in-memory EF database
+  - MyApp.Web.Api.Test - Integration test project for the Web API. Includes working sample POST and PUT tests using an in-memory EF database to show the stack functioning properly.
