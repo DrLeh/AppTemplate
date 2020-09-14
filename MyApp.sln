@@ -15,7 +15,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyApp.Core.Test", "src\MyAp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyApp.Contracts", "src\MyApp.Contracts\MyApp.Contracts.csproj", "{5BF0525B-9782-40A3-A840-36BF2F4CB8C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.Web.Api.Test", "src\MyApp.Web.Api.Test\MyApp.Web.Api.Test.csproj", "{689F2107-E5E3-475B-B882-7596F54735DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyApp.Web.Api.Test", "src\MyApp.Web.Api.Test\MyApp.Web.Api.Test.csproj", "{689F2107-E5E3-475B-B882-7596F54735DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{19DC78B0-374B-4E47-8FC9-35C040E1BF57}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
