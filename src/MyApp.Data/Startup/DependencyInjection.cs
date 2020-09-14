@@ -9,14 +9,14 @@ using Microsoft.Extensions.Configuration;
 
 namespace MyApp.Data.Startup
 {
-    public class Registry
+    public static class DependencyInjection
     {
-        public void RegisterServices(IServiceCollection services)
+        public static void AddData(this IServiceCollection services)
         {
             services.AddDbContext<MyAppDbContext>((sp, options) => options.UseSqlServer(sp
                 .GetService<Core.Configuration.IConfiguration>().ConnectionString));
 
-            services.AddTransient<IDataAccess, DataAccess>();
+            services.AddScoped<IDataAccess, DataAccess>();
         }
     }
 }

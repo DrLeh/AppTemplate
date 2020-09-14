@@ -9,13 +9,15 @@
   <ItemGroup>
     <!--use this once you have published the package-->
     <!--<PackageReference Include="MyApp.Contracts" Version="1.0.0" />-->
-    <PackageReference Include="AutoMapper" Version="9.0.0" />
-    <PackageReference Include="log4net" Version="2.0.8" />
-    <PackageReference Include="Microsoft.AspNetCore.DataProtection.Abstractions" Version="3.1.2" />
-    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.0.0" />
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <PackageReference Include="log4net" Version="2.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection" Version="3.1.8" />
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection.Abstractions" Version="3.1.8" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.8" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.0.0" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.0.0" />
-    <PackageReference Include="Microsoft.AspNetCore.DataProtection" Version="3.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.8" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.8" />
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection" Version="3.1.8" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
 

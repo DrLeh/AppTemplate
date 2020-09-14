@@ -20,7 +20,7 @@ namespace MyApp.Web
     {
         public WebUserInformation(IHttpContextAccessor httpContextAccessor)
         {
-            UserName = httpContextAccessor.HttpContext.Request.Query["userName"].FirstOrDefault() ?? string.Empty;
+            UserName = httpContextAccessor.HttpContext?.Request.Query["userName"].FirstOrDefault() ?? string.Empty;
         }
         public string UserName { get; }
     }
