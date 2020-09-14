@@ -3,18 +3,17 @@ using Moq;
 using MyApp.Core.Models;
 using MyApp.Core.MyEntities;
 using MyApp.Core.MyEntities.Operations;
-using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Xunit;
 
 namespace MyApp.Core.Test.MyEntities.Operations
 {
-    [TestFixture]
     public class MyEntityUpdateOperationTest
     {
-        [Test]
+        [Fact]
         public void MyEntity_Update_Test()
         {
             var id = 1;
